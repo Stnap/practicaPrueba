@@ -170,8 +170,8 @@ const Formulario = props => {
             />
           </View>
 
-          <TouchableOpacity style={styles.btnNuevaCita} onPress={EnvioPedido}>
-            <Text style={styles.btnNuevaCitaTexto}>{'Enviar'}</Text>
+          <TouchableOpacity style={styles.btnNuevoPedido} onPress={EnvioPedido}>
+            <Text style={styles.btnNuevoPedidoTexto}>{'Enviar'}</Text>
           </TouchableOpacity>
         </ScrollView>
         <View
@@ -201,13 +201,6 @@ const styles = StyleSheet.create({
   tituloBold: {
     fontWeight: '700',
   },
-  btnCancelar: {
-    backgroundColor: 'red',
-    marginHorizontal: 20,
-    padding: 20,
-    borderRadius: 50,
-    justifyContent: 'flex-end',
-  },
   campo: {
     marginHorizontal: 25,
   },
@@ -224,14 +217,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     fontSize: 18,
   },
-  btnNuevaCita: {
+  btnNuevoPedido: {
     marginVertical: 50,
     backgroundColor: 'green',
     paddingVertical: 15,
     marginHorizontal: 30,
     borderRadius: 10,
   },
-  btnNuevaCitaTexto: {
+  btnNuevoPedidoTexto: {
     color: 'white',
     textAlign: 'center',
     fontWeight: '700',
